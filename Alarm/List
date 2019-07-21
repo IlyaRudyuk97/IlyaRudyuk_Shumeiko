@@ -1,0 +1,12 @@
+#!/bin/bash
+Alarm_Name="MyAlarm"
+Week_Day="wed"
+Hour="16"
+Minute="35"
+
+echo -e "Название будильника---------""$Alarm_Name" >> /home/ilya/Шумейко/Alarm/Created_Alarms/$Alarm_Name
+echo -e "День неели------------------""$Week_Day" >> /home/ilya/Шумейко/Alarm/Created_Alarms/$Alarm_Name
+echo -e "Время-----------------------""$Hour:$Minute" >> /home/ilya/Шумейко/Alarm/Created_Alarms/$Alarm_Name
+echo -e "Мелодия---------------------""$Tune" >> /home/ilya/Шумейко/Alarm/Created_Alarms/$Alarm_Name
+echo -e "Используемый плейер---------""$Player\n" >> /home/ilya/Шумейко/Alarm/Created_Alarms/$Alarm_Name
+
