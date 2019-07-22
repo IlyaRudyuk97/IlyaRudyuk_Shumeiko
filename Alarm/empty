@@ -1,6 +1,0 @@
-#!/bin/bash
-
-if ! [[ -s /home/ilya/Шумейко/Alarm/Created_Alarms/List ]]
-then
- echo "file is empty"
-fi

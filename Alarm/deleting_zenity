@@ -1,5 +1,0 @@
-#!/bin/bash
-
-  sed "/1\ 1\ \*\ \*\ tue\  DISPLAY=:0 \/home\/ilya\/Шумейко\/Alarm\/zenity\.sh/d" currentjobs.txt > Alarms_Without_$$Choised_Alarm_Name.txt
-  crontab Alarms_Without_$$Choised_Alarm_Name.txt
-  rm Alarms_Without_$$Choised_Alarm_Name.txt

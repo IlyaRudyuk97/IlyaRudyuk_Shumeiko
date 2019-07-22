@@ -1,5 +1,0 @@
-#!/bin/bash
-
-Player=$1
-
-echo "$Player"
