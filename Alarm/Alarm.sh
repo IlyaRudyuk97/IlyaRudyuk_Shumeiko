@@ -266,25 +266,6 @@ then
  fi
 fi
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 if [[ "$First_Choise" = "2" ]]
 then
  crontab -l > current_alarms.txt
@@ -498,21 +479,6 @@ then
  ;;
 esac
 fi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 if [[ "$First_Choise" = "3" ]]
 then
