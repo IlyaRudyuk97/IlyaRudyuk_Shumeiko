@@ -467,11 +467,11 @@ then
  (crontab -l | grep . ; echo -e "#""$Choised_Alarm_Name") | crontab -
  croncmd1="/usr/bin/$Player /home/ilya/Шумейко/Alarm/$Tune"
  cronjob1="$Minute $Hour * * $Week_Day $croncmd1"
- (crontab -l | grep . ; echo -e "$cronjob1\n") | crontab - 
+ (crontab -l | grep . ; echo -e "$cronjob1\n") | crontab -
 
  croncmd2="DISPLAY=:0 /home/ilya/Шумейко/Alarm/killer.sh"
  cronjob2="$Minute $Hour * * $Week_Day $croncmd2 $Player"
- (crontab -l | grep . ; echo -e "$cronjob2\n") | crontab - 
+ (crontab -l | grep . ; echo -e "$cronjob2\n") | crontab -
 
  echo "Будильник успешно создан"
 
